@@ -1,0 +1,37 @@
+{
+  "name": "jwt-auth-express-prisma-postgresql",
+  "version": "1.0.0",
+  "description": "Implementing JWT Authentication with Express.js, Prisma, and PostgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdisusep/jwt-auth-express-prisma-postgresql.git"
+  },
+  "keywords": [
+    "JWT",
+    "JSON",
+    "Web",
+    "Token",
+    "Authentication",
+    "Express.js",
+    "PostgreSQL",
+    "Node.js",
+    "Backend"
+  ],
+  "author": "Abdi Susep",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdisusep/jwt-auth-express-prisma-postgresql/issues"
+  },
+  "homepage": "https://github.com/abdisusep/jwt-auth-express-prisma-postgresql#readme",
+  "dependencies": {
+    "@prisma/client": "^5.14.0",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "prisma": "^5.14.0"
+  }
+}

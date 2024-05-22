@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const jwt = require('jsonwebtoken');
 const { sendSuccessResponse, sendErrorResponse } = require('../utils/response');
 const { JWT_SECRET } = process.env;
